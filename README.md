@@ -31,8 +31,8 @@ Then inside `.buildpacks`, add the following contents:
 Heroku natively also support's multiple buildpacks, the same setup as above can be achieved as follows:
 
     heroku buildpacks:clear
-    heroku buildpacks:set https://github.com/heroku/heroku-buildpack-ruby
-    heroku buildpacks:add --index 1 https://github.com/ddollar/heroku-buildpack-multi
+    heroku buildpacks:set https://github.com/wealthsimple/oracle-heroku-buildpack
+    heroku buildpacks:add --index 1 https://github.com/heroku/heroku-buildpack-ruby
 
 
 # Configuration (Optional)
